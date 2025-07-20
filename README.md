@@ -241,6 +241,7 @@ Potential integrations include:
   - Export coverage heatmaps, efficiency scores, etc.
 
 Note: These integrations are modular and optional. They are intended to support enterprise-level workflows where internal tools are already in use. Adapter modules can be developed independently and plugged into the agent system.
+
 ---
 
 ## 👥 Contributors
@@ -259,9 +260,8 @@ It is **not affiliated with or representative of any current or former employer.
 ## 📜 License
 
 Licensed under the **Apache License, Version 2.0.**
-See the LICENSE file for full details.
 
-If you use or build upon this project, please include a link to the original repository and credit Chankrisna Chea as the author.
+See the [LICENSE](./LICENSE) file for full details.
 
 ---
 
