@@ -1,0 +1,32 @@
+{
+    "program": "XYZ",
+    "sku": "A",
+    "os": "24H2",
+    "milestone": "Alpha",
+    "testplan_id": "25XYZSWW2224H2CORPALPHA",
+    "validation_type": "functional",
+    "validation_configuration": "VC1",
+    "time_budget": "336",
+    "priority_domains": [
+        "connectivity"
+    ],
+    "hardware_availability": [
+        "XYZ-A_VC1_01",
+        "XYZ-A_VC1_01",
+        "XYZ-A_VC1_01"
+    ],
+    "test_catalog": [
+        {
+            "id": "1111111111",
+            "title": "Verify Wi-Fi ping during Modern Standby(MS)",
+            "domain": "power_management",
+            "validation_category": "CAT3"
+        },
+        {
+            "id": "2222222222",
+            "title": "Verify platform achieves MS when WiFi has driver disabled or in airplane mode",
+            "domain": "connectivity.wifi",
+            "validation_category": "CAT3"
+        }
+    ]
+}

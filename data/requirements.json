@@ -1,0 +1,17 @@
+[
+    {
+        "id": "123456789",
+        "type": "functional",
+        "title": "Modern Standby States with WiFi",
+        "val_coverage": "platform_validation",
+        "status": "4-por",
+        "owner": "cchea",
+        "domain": "power_management",
+        "applicable_os": "windows",
+        "family": "XYZ Platforms",
+        "submitted_by": "cchea",
+        "submitted_date": "2020-05-11 21:04:03.377",
+        "description": "<p>Platform shall support Modern Standby States with WiFi</p>",
+        "applicability": ["pm_ms_s0ix", "cnvi_wifi"]
+    }
+]

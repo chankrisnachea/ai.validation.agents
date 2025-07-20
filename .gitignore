@@ -1,0 +1,74 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+.venv/
+env/
+venv/
+ENV/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Python egg files
+*.egg
+*.egg-info/
+dist/
+build/
+eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Distribution metadata
+*.manifest
+*.spec
+
+# VS Code / IDE config
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Mac system files
+.DS_Store
+
+# Log files and temporary files
+*.log
+*.tmp
+*.bak
+*.swp
+
+# Streamlit cache
+.streamlit/
+.streamlit_cache/
+
+# RAG vector index or embeddings
+rag_index/
+*.faiss
+*.pkl
+
+# Sample output and temp data
+data/output_*.json
+*.csv
+
+# Environment/config secrets (optional)
+.env
+.env.*
+
+# Pytest
+.cache/
+.pytest_cache/
+
+# Coverage reports
+htmlcov/
+.coverage
+coverage.xml

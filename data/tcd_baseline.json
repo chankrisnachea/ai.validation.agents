@@ -1,0 +1,42 @@
+[
+    {
+        "id": "1111111111",
+        "title": "Verify Wi-Fi ping during Modern Standby(MS)",
+        "domain": "power_management",
+        "validation_category": "CAT3",
+        "validation_type": "functional",
+        "owner": "cchea",
+        "description": "Verify ping command replies with request timeout when client SUT in MS and on wake from MS it replies.",
+        "applicability": ["pm_ms_s0ix", "cnvi_wifi"]
+    },
+{
+        "id": "2222222222",
+        "title": "Verify platform achieves MS when WiFi has driver disabled or in airplane mode",
+        "domain": "connectivity.wifi",
+        "validation_category": "CAT3",
+        "validation_type": "functional",
+        "owner": "cchea",
+        "description": "Verify that platform is able to achieve MS when WiFi has driver disabled or in airplane mode.",
+        "applicability": ["pm_ms_s0ix", "cnvi_wifi"]
+    },
+{
+        "id": "33333333333",
+        "title": "Verify WebGL Benchmark on Intel GPU",
+        "domain": "graphics",
+        "validation_category": "CAT2",
+        "validation_type": "functional",
+        "owner": "cchea",
+        "description": null,
+        "applicability": ["igfx"]
+    },
+    {
+        "id": "44444444444",
+        "title": "10 bit video recording from camera sensor",
+        "domain": "imaging",
+        "validation_category": "CAT2",
+        "validation_type": "functional",
+        "owner": "cchea",
+        "description": null,
+        "applicability": ["camera"]
+    }
+]
